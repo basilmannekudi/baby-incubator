@@ -1,8 +1,8 @@
 #include <WiFiManager.h>
 #include <FirebaseESP32.h>
 String data;
-String FIREBASE_HOST = "https://incubator-7b923-default-rtdb.firebaseio.com/";
-String FIREBASE_AUTH = "8gLgxr6i470C8r4c84X1glq4WpPCPIsrivpwOtTf";
+String FIREBASE_HOST = "YOUR-HOST-CRED";
+String FIREBASE_AUTH = "YOUR-AUTH-CRED";
 
 FirebaseData firebaseData;
 FirebaseJson json;
